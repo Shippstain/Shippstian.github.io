@@ -1,0 +1,249 @@
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.Header{
+    display: flex;
+    position: fixed;
+    padding: 9px 0px;
+    background: black;
+    Width: 100%;
+    height: 69px;
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.35em;
+    }
+
+.logo img{
+    display: flex;
+    position:relative;
+    padding-top: 9px;
+    padding-left: 10px;
+    height: 50px;
+    width: 167px;
+}
+
+.links{    
+    display: flex;
+    width: 450px;
+    height: 69px;
+    flex-flow:row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9px;
+    padding-right:10px;
+    text-decoration: underline;
+    color: seashell;
+    font-weight: lighter;
+    padding-right: 1.5rem;
+}
+
+.titlecontainer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1200px 700px;
+    height: 700px;
+    width: 100%;
+}
+
+.title{
+    background: black;
+    display: flex;
+    flex-flow: column;
+    padding: 5px 5px;
+    position: absolute;
+    width: 1200px;
+    height: 140px;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.teamonth{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    top: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.teammonthtitle{
+    background: black;
+    display: flex;
+    flex-flow: column;
+    padding: 5px 5px;
+    position: relative;
+    justify-content: space-around;
+    align-content: center;
+    width: 100px;
+    height: 140px;
+
+}
+
+.teamonthimages{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 600px;
+}
+
+.image1{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.image1 img {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 150px;
+}
+.image2{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.image2 img {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+}
+.image3{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.image3 img {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 250px;
+}
+.image4{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 300px;
+    right: 300px;
+}
+
+.image4 img {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.image5{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 300px;
+    right: 250px;
+}
+
+.image5 img {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.location {
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-position-y: 10em;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1200px 800px;
+    height: 800px;
+    width: 100%;
+    top: 200px;
+}
+
+.locationtext{
+    display: flex;
+    position: relative;
+    top: 6em;
+}
+
+.locationcontainer{
+    display: flex;
+    position: relative;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100px;
+    top: 8em;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 20px;
+}
+
+.contact{
+    background: black;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    top: 19em;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 1000px;
+    top: 25em;
+    left: 20px;
+}
